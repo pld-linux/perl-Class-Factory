@@ -6,7 +6,8 @@ Summary(pl):	Klasa bazowa do dynamicznych klas przemys³owych
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.00
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	08ab1312a554fa58833cbc176e29ac88
