@@ -9,7 +9,7 @@ Summary:	Base class for dynamic factory classes
 Summary(pl):	Klasa bazowa do dynamicznych klas przemys³owych
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.00
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
