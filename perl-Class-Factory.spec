@@ -7,7 +7,7 @@
 %define	pnam	Factory
 Summary:	Base class for dynamic factory classes
 Summary(pl):	Klasa bazowa do dynamicznych klas przemys³owych
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Class-Factory
 Version:	1.00
 Release:	3
 # same as perl
