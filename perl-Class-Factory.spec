@@ -8,13 +8,13 @@
 Summary:	Base class for dynamic factory classes
 Summary(pl):	Klasa bazowa do dynamicznych klas przemys³owych
 Name:		perl-Class-Factory
-Version:	1.00
-Release:	3
+Version:	1.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	08ab1312a554fa58833cbc176e29ac88
+# Source0-md5:	eb1541ad8dfc998509d1018476e7a0ee
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -41,7 +41,7 @@ przemys³owych.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install 
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
