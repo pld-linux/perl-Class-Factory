@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Factory
+%define		pdir	Class
+%define		pnam	Factory
 Summary:	Base class for dynamic factory classes
 Summary(pl):	Klasa bazowa do dynamicznych klas przemys³owych
 Name:		perl-Class-Factory
