@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Factory
 Summary:	Base class for dynamic factory classes
-Summary(pl.UTF-8):	Klasa bazowa do dynamicznych klas przemysłowych
+Summary(pl.UTF-8):	Klasa bazowa do dynamicznych klas fabryk
 Name:		perl-Class-Factory
 Version:	1.06
 Release:	1
@@ -27,7 +27,7 @@ classes.
 
 %description -l pl.UTF-8
 Ten moduł ma za zadanie dostarczyć klasę bazową do dynamicznych klas
-przemysłowych.
+fabryk.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
